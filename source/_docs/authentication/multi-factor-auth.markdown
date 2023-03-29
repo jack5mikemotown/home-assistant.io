@@ -64,7 +64,7 @@ The Notify MFA module uses the [notify component](/integrations/notify/) to send
 
 #### Setting up MFA notify
 
-Add Notify MFA to your `configuration.yaml` file like this:
+Add Notify MFA to your `configuration.yaml` file like this. Do not include `notify.` in your entity name:
 
 ```yaml
 homeassistant:
